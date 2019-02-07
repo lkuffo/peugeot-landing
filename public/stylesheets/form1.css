@@ -63,6 +63,17 @@
   margin-top: 4px;
 }
 
+.pg-landing-form-field-especial{
+  display: flex;
+  justify-content: space-around;
+}
+
+.pg-landing-form-text-esp{
+  font-size: 12px;
+  color: #f7f7f7;
+  opacity: 0.8;
+}
+
 .pg-landing-form-text{
   font-size: 12px;
   color: #f7f7f7;
