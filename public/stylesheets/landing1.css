@@ -33,7 +33,7 @@ input[type="submit"] {
   /* width: 100%; */
   position: sticky;
   height: 105%;
-  background-image: url("/images/landing1.png");
+  background-image: url("/images/301diesel/landscape.jpg");
   background-repeat:   no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -52,7 +52,7 @@ input[type="submit"] {
 
 @media (max-width: 720px){
   .pg-landing-301-bg{
-    background-image: url("/images/landing1responsive.png");
+    background-image: url("/images/301diesel/responsive.jpg");
     height: 108%;
   }
 
@@ -98,7 +98,7 @@ input[type="submit"] {
 @media screen and (orientation:landscape) and (max-width: 720px) and (min-width:420px) {
 
   .pg-landing-301-bg{
-    background-image: url("/images/landing1squareReduced.png");
+    background-image: url("/images/301diesel/squareReduced.jpg");
     height: 110%;
   }
 
@@ -108,7 +108,7 @@ input[type="submit"] {
 
   #crmWebToEntityForm{
     width: 40% !important;
-    top: 5%;
+    top: 27%;
     left: 53% !important;
     margin: 4px;
     padding: 8px;
@@ -132,15 +132,15 @@ input[type="submit"] {
 }
 
 
-@media (max-width: 990px) and (min-width: 721px){
+@media (max-width: 1024px) and (min-width: 721px){
   .pg-landing-301-bg{
-    background-image: url("/images/landing1squareReduced.png");
+    background-image: url("/images/301diesel/squareReduced.jpg");
   }
 
   #crmWebToEntityForm{
     width: 350px !important;
     right: 2%;
-    top: 10%;
+    top: 30%;
   }
 
   .pg-landing-logo{
