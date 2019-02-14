@@ -1,0 +1,154 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  height: 100%
+}
+
+html {
+  height: 100%;
+}
+
+textarea,
+input[type="text"],
+input[type="button"],
+input[type="submit"] {
+     -webkit-appearance: none;
+     border-radius: 4px;
+}
+
+#crmWebToEntityForm{
+  margin: 16px;
+  padding: 16px;
+  background-color: rgba(19, 24, 39, 0.9);
+  width: 450px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 4px;
+  position: fixed;
+  right: 7%;
+  top: 35%;
+}
+
+.pg-landing-301-bg{
+  /* width: 100%; */
+  position: sticky;
+  height: 105%;
+  background-image: url("/images/301diesel/landscape.jpg");
+  background-repeat:   no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.pg-landing-logo{
+  width: 136px;
+}
+
+.pg-landing-301-navbar{
+  width: 100%;
+}
+
+
+@media (max-width: 720px){
+  .pg-landing-301-bg{
+    background-image: url("/images/301diesel/responsive.jpg");
+    height: 108%;
+  }
+
+  .pg-landing-form-box-title{
+    font-size: 16px !important;
+    font-weight: normal !important;
+  }
+
+  .pg-landing-form-input{
+    height: 24px !important;
+  }
+
+  body{
+    background-color: black;
+  }
+
+  .pg-landing-logo{
+    display: none;
+  }
+
+  #crmWebToEntityForm{
+    width: 68% !important;
+    top: 20%;
+    left: 50% !important;
+    margin-left: -38%;
+    position: absolute !important;
+  }
+
+  .pg-landing-form-box{
+    width: 98% !important;
+  }
+
+  .btn{
+    font-size: 11px !important;
+    height: 24px !important;
+    line-height: 22px !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+  }
+
+}
+
+@media screen and (orientation:landscape) and (max-width: 720px) and (min-width:420px) {
+
+  .pg-landing-301-bg{
+    background-image: url("/images/301diesel/squareReduced.jpg");
+    height: 110%;
+  }
+
+  .pg-landing-logo{
+    display: none;
+  }
+
+  #crmWebToEntityForm{
+    width: 40% !important;
+    top: 27%;
+    left: 53% !important;
+    margin: 4px;
+    padding: 8px;
+  }
+
+  .pg-landing-form-input{
+    height: 22px !important;
+  }
+
+  .pg-landing-form-box-title{
+    font-size: 14px !important;
+  }
+
+  .pg-landing-form-box{
+    width: 100% !important;
+  }
+
+  .btn{
+    font-size: 10px !important;
+  }
+}
+
+
+@media (max-width: 1024px) and (min-width: 721px){
+  .pg-landing-301-bg{
+    background-image: url("/images/301diesel/squareReduced.jpg");
+  }
+
+  #crmWebToEntityForm{
+    width: 350px !important;
+    right: 2%;
+    top: 30%;
+  }
+
+  .pg-landing-logo{
+    display: none;
+  }
+
+  .pg-landing-form-box{
+    width: 350px !important;
+  }
+
+}
