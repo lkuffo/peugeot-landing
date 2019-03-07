@@ -1,5 +1,62 @@
+@font-face {
+  font-family: "PEUGEOT";
+  src: url("/stylesheets/fonts/Peugeot.otf");
+}
+@font-face {
+  font-family: "PEUGEOT";
+  src: url("/stylesheets/fonts/Peugeot Expanded Normal 2.otf");
+  font-weight: bold;
+}
+@font-face {
+    font-family: "PEUGEOT";
+    src: url("/stylesheets/fonts/Peugeot Expanded Light.otf");
+    font-style: italic;
+    font-weight: 100;
+}
+body, html{
+  font-family: "PEUGEOT" !important;
+}
+
+textarea::-webkit-input-placeholder {
+  font-family: 'PEUGEOT', sans-serif;
+}
+
+textarea:-moz-placeholder { /* Firefox 18- */
+  font-family: 'PEUGEOT', sans-serif;
+}
+
+textarea::-moz-placeholder {  /* Firefox 19+ */
+  font-family: 'PEUGEOT', sans-serif;
+}
+
+textarea:-ms-input-placeholder {
+  font-family: 'PEUGEOT', sans-serif;
+}
+
+
+input::-webkit-input-placeholder {
+  font-family: 'PEUGEOT', sans-serif !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+  font-family: 'PEUGEOT', sans-serif !important;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+  font-family: 'PEUGEOT', sans-serif !important;
+}
+
+input:-ms-input-placeholder {
+  font-family: 'PEUGEOT', sans-serif !important;
+}
+
+button, .btn, .btn-2{
+  font-family: 'PEUGEOT', sans-serif !important;
+}
+
+
 .pg-footer-links{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'PEUGEOT', sans-serif;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -22,7 +79,7 @@
 .pg-see-more{
   cursor: pointer;
   opacity: 1;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'PEUGEOT', sans-serif;
   text-align: center;
   position: fixed;
   top: 0px;
@@ -48,7 +105,7 @@
 .pg-see-less{
   cursor: pointer;
   opacity: 1;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'PEUGEOT', sans-serif;
   text-align: center;
   position: fixed;
   top: 0px;

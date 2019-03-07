@@ -18,23 +18,6 @@ textarea {
 }
 
 
-textarea::-webkit-input-placeholder {
-  font-family: 'Roboto', sans-serif;
-}
-
-textarea:-moz-placeholder { /* Firefox 18- */
-  font-family: 'Roboto', sans-serif;
-}
-
-textarea::-moz-placeholder {  /* Firefox 19+ */
-  font-family: 'Roboto', sans-serif;
-}
-
-textarea:-ms-input-placeholder {
-  font-family: 'Roboto', sans-serif;
-}
-
-
 
 .form-div{
   display: flex;
@@ -44,7 +27,7 @@ textarea:-ms-input-placeholder {
 .pg-landing-form-box-title{
   text-transform: uppercase;
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   padding-bottom: 8px;
 }
