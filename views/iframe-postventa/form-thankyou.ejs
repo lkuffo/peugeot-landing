@@ -1,0 +1,89 @@
+<!-- Note :
+   - You can modify the font style and form style to suit your website.
+   - Code lines with comments ���Do not remove this code���  are required for the form to work properly, make sure that you do not remove these lines of code.
+   - The Mandatory check script can modified as to suit your business needs.
+   - It is important that you test the modified form before going live.-->
+<div id='crmWebToEntityForm' class="animated fadeInRight">
+   <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
+   <form class="form-div" action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads3798478000000891007 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory3798478000000891007()' accept-charset='UTF-8'>
+
+	 <!-- Do not remove this code. -->
+	<input type='text' style='display:none;' name='xnQsjsdp' value='39a000e77ca0575cdc73d81153f7e57b2ed0851fb6b1c8bfb4e1aa3da6c6f891'/>
+	<input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+	<input type='text' style='display:none;' name='xmIwtLD' value='2dcc9959772ed1a84fe5b1152a5247429230e5af43c3027ce9577e7616511a8e'/>
+	<input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
+
+	<input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;www.peugeot.com.ec&#x2f;servicios-y-mantenimiento.html' />
+	 <!-- Do not remove this code. -->
+	<input type='text' style='display:none;' id='ldeskuid' name='ldeskuid'></input>
+	<input type='text' style='display:none;' id='LDTuvid' name='LDTuvid'></input>
+	 <!-- Do not remove this code. -->
+
+	<table class="pg-landing-form-box" style='color:&#x23;ffffff'>
+
+  <tr><td colspan='2' class="pg-landing-form-box-title">Hemos recibido tu solicitud. En breve nos pondremos en contacto contigo.</td></tr>
+
+	<tr style='display:none;' ><td><span class="pg-landing-form-text">Nombre<span style='color:red;'>*</span></span><input type='text' class="pg-landing-form-input"   maxlength='80' name='Last Name' placeholder="Nombre Completo*" /></td></tr>
+
+	<tr style='display:none;' ><td><span class="pg-landing-form-text">Correo electr&oacute;nico</span><input type='text' class="pg-landing-form-input"   maxlength='100' name='Email' placeholder="Correo*"/></td></tr>
+
+	<tr style='display:none;' ><td><span class="pg-landing-form-text">Tel&eacute;fono</span><input type='text' class="pg-landing-form-input" maxlength='30' name='Phone' placeholder="Teléfono"/></td></tr>
+
+	<tr style='display:none;' ><td><span class="pg-landing-form-text">Ciudad</span><input type='text' class="pg-landing-form-input"  maxlength='100' name='City' placeholder="Ciudad*" /></td></tr>
+
+	<tr style='display:none;' ><td><span class="pg-landing-form-text">Descripci&oacute;n</span><textarea name='Description' maxlength='32000' class="pg-landing-form-input" >&nbsp;</textarea></td></tr>
+
+	<tr style='display:none;' ><td class="pg-landing-form-field-especial"><span class="pg-landing-form-text-esp">Deseo recibir ofertas por correo<input type='checkbox'  name='Email Opt Out' /></td></tr>
+
+  <tr style='display:none;' ><td style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:50%'>Descripci&oacute;n </td><td> <textarea name='Description' maxlength='32000' style='width:250px;'>POSTVENTA</textarea></tr>
+
+	<tr style='display:none;' ><td colspan='2'  class="pg-landing-form-btn" >
+		<input class="btn btn-2"  type='submit' value='ENVIAR' />
+	    </td>
+	</tr>
+   </table>
+	<script>
+ 	  var mndFileds=new Array('Last Name');
+ 	  var fldLangVal=new Array('Nombre');
+		var name='';
+		var email='';
+
+ 	  function checkMandatory3798478000000891007() {
+		for(i=0;i<mndFileds.length;i++) {
+		  var fieldObj=document.forms['WebToLeads3798478000000891007'][mndFileds[i]];
+		  if(fieldObj) {
+			if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
+			 if(fieldObj.type =='file')
+				{
+				 alert('Seleccione un archivo para cargar.');
+				 fieldObj.focus();
+				 return false;
+				}
+			alert(fldLangVal[i] +' no puede estar vacío.');
+   	   	  	  fieldObj.focus();
+   	   	  	  return false;
+			}  else if(fieldObj.nodeName=='SELECT') {
+  	   	   	 if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
+				alert(fldLangVal[i] +' no puede ser nulo.');
+				fieldObj.focus();
+				return false;
+			   }
+			} else if(fieldObj.type =='checkbox'){
+ 	 	 	 if(fieldObj.checked == false){
+				alert('Please accept  '+fldLangVal[i]);
+				fieldObj.focus();
+				return false;
+			   }
+			 }
+			 try {
+			     if(fieldObj.name == 'Last Name') {
+				name = fieldObj.value;
+ 	 	 	    }
+			} catch (e) {}
+		    }
+		}
+		trackVisitor();
+	}
+</script><script type='text/javascript' id='VisitorTracking'>var $zoho= $zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:'fca023d41369b102f674653bfbad40ae8773efd594d827d38972098434ea4d4f6e5f93d6453259ced09a7ab59dbcb438', values:{},ready:function(){$zoho.salesiq.floatbutton.visible('hide');}};var d=document;s=d.createElement('script');s.type='text/javascript';s.id='zsiqscript';s.defer=true;s.src='https://salesiq.zoho.com/widget';t=d.getElementsByTagName('script')[0];t.parentNode.insertBefore(s,t);function trackVisitor(){try{if($zoho){var LDTuvidObj = document.forms['WebToLeads3798478000000891007']['LDTuvid'];if(LDTuvidObj){LDTuvidObj.value = $zoho.salesiq.visitor.uniqueid();}var firstnameObj = document.forms['WebToLeads3798478000000891007']['First Name'];if(firstnameObj){name = firstnameObj.value +' '+name;}$zoho.salesiq.visitor.name(name);var emailObj = document.forms['WebToLeads3798478000000891007']['Email'];if(emailObj){email = emailObj.value;$zoho.salesiq.visitor.email(email);}}} catch(e){}}</script>
+	</form>
+</div>

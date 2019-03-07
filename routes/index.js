@@ -22,8 +22,16 @@ router.get('/servicios-postventa', function(req, res, next) {
   res.render('postventa/postventa', { title: 'Express' });
 });
 
+router.get('/iframe-servicios-postventa', function(req, res, next) {
+  res.render('iframe-postventa/postventa', { title: 'Express' });
+});
+
 router.get('/servicios-postventa-thanks', function(req, res, next) {
   res.render('postventa/postventa-thanks', { title: 'Express' });
+});
+
+router.get('/iframe-servicios-postventa-thanks', function(req, res, next) {
+  res.render('iframe-postventa/postventa-thanks', { title: 'Express' });
 });
 
 module.exports = router;
