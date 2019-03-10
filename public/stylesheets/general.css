@@ -4,14 +4,13 @@
 }
 @font-face {
   font-family: "PEUGEOT";
-  src: url("/stylesheets/fonts/Peugeot Expanded Normal 2.otf");
+  src: url("/stylesheets/fonts/Peugeot Bold.otf");
   font-weight: bold;
 }
 @font-face {
     font-family: "PEUGEOT";
     src: url("/stylesheets/fonts/Peugeot Expanded Light.otf");
     font-style: italic;
-    font-weight: 100;
 }
 body, html{
   font-family: "PEUGEOT" !important;
@@ -137,7 +136,8 @@ button, .btn, .btn-2{
 .pg-footer-link{
   text-decoration: none !important;
   font-weight: 500;
-  margin: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
   color: black;
   transition: all 0.5s ease;
 }
@@ -220,4 +220,43 @@ button, .btn, .btn-2{
     margin-left: -115px;
   }
 
+}
+
+.pg-footer{
+  position: relative;
+  display: flex;
+  z-index: -1;
+  flex-direction: column;
+  padding: 16px;
+  flex-wrap: wrap;
+  background-color: #e6e6e6;
+  color: black;
+  flex-grow: 1;
+  margin: 0px !important;
+}
+
+.pg-footer-first-box, .pg-footer-second-box{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  text-align: justify;
+  align-content: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.pg-footer-big{
+  font-size: 14px;
+  align-self: center;
+  margin-right: 8px;
+}
+
+.pg-footer-info{
+  font-size: 10px;
+  text-align: justify;
+  align-self: center;
+}
+
+.pg-footer-contact{
+  font-size: 12px;
 }
