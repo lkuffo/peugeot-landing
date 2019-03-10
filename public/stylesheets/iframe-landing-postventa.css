@@ -8,6 +8,19 @@ body {
 html {
 }
 
+.pg-select{
+  margin-bottom: 16px;
+  height: 36px;
+  width: 50% !important;
+  border-color: #b7b3b3 !important;
+}
+
+.ms-choice{
+  height: 36px !important;
+  border-radius: 0px !important;
+  border-color: #b7b3b3 !important;
+}
+
 textarea,
 input[type="text"],
 input[type="button"],

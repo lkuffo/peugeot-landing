@@ -5,18 +5,15 @@
    - It is important that you test the modified form before going live.-->
 <div id='crmWebToEntityForm' class="animated fadeInRight">
    <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
-   <form class="form-div" action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads3798478000000891007 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory3798478000000891007()' accept-charset='UTF-8'>
+   <form class="form-div" action='https://crm.zoho.com/crm/WebForm'  name=WebForm3798478000000978045 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory3798478000000978045()' accept-charset='UTF-8'>
 
 	 <!-- Do not remove this code. -->
 	<input type='text' style='display:none;' name='xnQsjsdp' value='39a000e77ca0575cdc73d81153f7e57b2ed0851fb6b1c8bfb4e1aa3da6c6f891'/>
 	<input type='hidden' name='zc_gad' id='zc_gad' value=''/>
-	<input type='text' style='display:none;' name='xmIwtLD' value='2dcc9959772ed1a84fe5b1152a5247429230e5af43c3027ce9577e7616511a8e'/>
-	<input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
+	<input type='text' style='display:none;' name='xmIwtLD' value='2dcc9959772ed1a84fe5b1152a524742cd9ed30083dfbe939348ee36674a852d'/>
+	<input type='text' style='display:none;'  name='actionType' value='Q3VzdG9tTW9kdWxlMQ=='/>
 
-	<input type='text' style='display:none;' name='returnURL' value='http://promociones.peugeot.com.ec/servicios-postventa-thanks' />
-	 <!-- Do not remove this code. -->
-	<input type='text' style='display:none;' id='ldeskuid' name='ldeskuid'></input>
-	<input type='text' style='display:none;' id='LDTuvid' name='LDTuvid'></input>
+	<input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;www.peugeot.com.ec&#x2f;servicios-y-mantenimiento.html' />
 	 <!-- Do not remove this code. -->
 
 
@@ -28,89 +25,139 @@
 
   <!-- <tr><td colspan='2' class="pg-landing-form-box-title">Cita de mantenimiento</td></tr> -->
 
-	<tr><td><span class="pg-landing-form-text">Nombre<span style='color:red;'>*</span></span><input type='text' class="pg-landing-form-input"   maxlength='80' name='Last Name' placeholder="Nombre Completo*" /></td></tr>
+  <tr>
+    <td style="padding: 16px; background-color: #f1f3f2 !important;">
+      <span style="color: #557e9c !important;"> Introduzca sus datos </span>
+    </td>
+  </tr>
+
+	<tr><td><span class="pg-landing-form-text">Nombre<span style='color:red;'>*</span></span><input type='text' class="pg-landing-form-input"   maxlength='80' name='NAME' placeholder="Nombre Completo*" /></td></tr>
 
 	<tr><td><span class="pg-landing-form-text">Correo electr&oacute;nico</span><input type='text' class="pg-landing-form-input"   maxlength='100' name='Email' placeholder="Correo*"/></td></tr>
 
-	<tr><td><span class="pg-landing-form-text">Tel&eacute;fono</span><input type='text' class="pg-landing-form-input" maxlength='30' name='Phone' placeholder="Teléfono"/></td></tr>
+	<tr><td><span class="pg-landing-form-text">Tel&eacute;fono</span><input type='text' class="pg-landing-form-input" maxlength='30' name='COBJ1CF4' placeholder="Teléfono*"/></td></tr>
 
-	<tr><td><span class="pg-landing-form-text">Ciudad</span><input type='text' class="pg-landing-form-input"  maxlength='100' name='City' placeholder="Ciudad*" /></td></tr>
+	<!-- <tr><td><span class="pg-landing-form-text">Ciudad (donde desea ser atendido)</span><input type='text' class="pg-landing-form-input"  maxlength='100' name='City' placeholder="Ciudad (donde desee ser atendido)*" /></td></tr> -->
 
-	<tr><td><span class="pg-landing-form-text">Descripci&oacute;n</span><textarea name='Description' maxlength='32000' class="pg-landing-form-input" placeholder="Describe tu requerimiento de servicio postventa"></textarea></td></tr>
+  <tr>
+    <td style="color: #3c3947;">Ciudad (donde desea ser atendido)*
+    </td>
+  </tr>
+  <tr>
+    <td>
+		<select class="pg-select" name='COBJ1CF11'>
+			<option value='Guayaquil'>Guayaquil</option>
+			<option value='Quito'>Quito</option>
+      <option value='Cuenca'>Cuenca</option>
+		</select></td>
+  </tr>
 
-	<tr><td class="pg-landing-form-field-especial"><span class="pg-landing-form-text-esp">Deseo recibir ofertas por correo<input type='checkbox'  name='Email Opt Out' /></td></tr>
+  <tr>
+    <td style="color: #3c3947;">Contactarse conmigo por:*
+    </td>
+  </tr>
+  <tr>
+    <td>
+    <select class="multipleselect pg-select" multiple="multiple" name='COBJ1CF10'>
+      <option value='Email'>Email</option>
+      <option value='Tel&eacute;fono'>Tel&eacute;fono</option>
+    </select></td>
+  </tr>
 
-    <tr style='display:none;' ><td style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:50%'>Estado de Posible cliente</td><td style='width:250px;'>
-  		<select style='width:250px;' name='Lead Status'>
-  			<option value='-None-'>-None-</option>
-  			<option value='Intento&#x20;de&#x20;contacto'>Intento de contacto</option>
-  			<option value='Falta&#x20;Informacion'>Falta Informacion</option>
-  			<option value='No&#x20;interesado'>No interesado</option>
-  			<option value='No&#x20;contesta'>No contesta</option>
-  			<option value='Volver&#x20;a&#x20;llamar'>Volver a llamar</option>
-  			<option value='Interesado&#x20;en&#x20;Mantenimiento'>Interesado en Mantenimiento</option>
-  			<option value='Interesado&#x20;en&#x20;Repuesto'>Interesado en Repuesto</option>
-  			<option value='Fuera&#x20;de&#x20;Servicio'>Fuera de Servicio</option>
-  			<option value='Numero&#x20;Equivocado'>Numero Equivocado</option>
-  			<option value='Contactar&#x20;en&#x20;el&#x20;futuro'>Contactar en el futuro</option>
-  			<option value='Contactado'>Contactado</option>
-  			<option value='Posible&#x20;cliente&#x20;no&#x20;solicitado'>Posible cliente no solicitado</option>
-  			<option value='Posible&#x20;cliente&#x20;perdido'>Posible cliente perdido</option>
-  			<option value='No&#x20;contactado'>No contactado</option>
-  			<option value='Previamente&#x20;clasificado'>Previamente clasificado</option>
-  			<option value='No&#x20;habilitado'>No habilitado</option>
-  			<option value='Duplicado'>Duplicado</option>
-  		<option selected value='POSTVENTA'>POSTVENTA</option>
-  		</select></td></tr>
 
+
+  <tr>
+    <td style="padding: 16px; background-color: #f1f3f2 !important;">
+      <span style="color: #557e9c !important;"> Introduzca los datos de su vehículo </span>
+    </td>
+  </tr>
+
+	<tr><td><span class="pg-landing-form-text">Modelo</span><input type='text' class="pg-landing-form-input"  maxlength='255' name='COBJ1CF6' placeholder="Modelo*"/></td></tr>
+
+	<!-- <tr><td><span class="pg-landing-form-text">Tipo de Gasolina</span><input type='text' class="pg-landing-form-input" maxlength='255' name='COBJ1CF8' placeholder="Tipo de Gasolina*"/>
+  </td></tr> -->
+
+	<tr><td><span class="pg-landing-form-text">Kilometraje Actual</span><input type='text' class="pg-landing-form-input" maxlength='9' name='COBJ1CF51' placeholder="Kilometraje Actual*"/></td></tr>
+
+	<tr><td><span class="pg-landing-form-text">No. de Placa</span><input type='text' class="pg-landing-form-input" maxlength='255' name='COBJ1CF9' placeholder="No. de Placa*"/></td></tr>
+
+  <tr>
+    <td style="color: #3c3947;">Tipo de Gasolina*
+    </td>
+  </tr>
+  <tr>
+    <td>
+		<select class="pg-select" name='COBJ1CF8'>
+			<option value='Gasolina'>Gasolina</option>
+			<option value='Diesel'>Diesel</option>
+		</select></td>
+  </tr>
+
+  <tr>
+    <td style="color: #3c3947;">Tipo de Mantenimiento*
+    </td>
+  </tr>
+	  <tr>
+    <td>
+		<select class="multipleselect pg-select" name='COBJ1CF7' multiple="multiple">
+			<option value='Mantenimiento&#x20;Regular'>Mantenimiento Regular</option>
+			<option value='P&eacute;rdida&#x20;de&#x20;L&iacute;quido'>P&eacute;rdida de L&iacute;quido</option>
+			<option value='Revisi&oacute;n&#x20;de&#x20;Aire&#x20;Acondicionado'>Revisi&oacute;n de Aire Acondicionado</option>
+			<option value='Instalaci&oacute;n&#x20;de&#x20;Accesorios'>Instalaci&oacute;n de Accesorios</option>
+			<option value='Revisi&oacute;n&#x20;de&#x20;Frenos'>Revisi&oacute;n de Frenos</option>
+			<option value='Ruido&#x20;en&#x20;suspensi&oacute;n'>Ruido en suspensi&oacute;n</option>
+			<option value='Revisi&oacute;n&#x20;de&#x20;Motor'>Revisi&oacute;n de Motor</option>
+			<option value='Otros'>Otros</option>
+		</select></td>
+  </tr>
 
 	<tr><td colspan='2'  class="pg-landing-form-btn" >
 		<input class="btn btn-2"  type='submit' value='ENVIAR' />
 	    </td>
 	</tr>
    </table>
-	<script>
- 	  var mndFileds=new Array('Last Name');
- 	  var fldLangVal=new Array('Nombre');
-		var name='';
-		var email='';
+   <script>
+  	  var mndFileds=new Array('NAME','COBJ1CF9','Email','COBJ1CF4','COBJ1CF6','COBJ1CF11','COBJ1CF51','COBJ1CF7','COBJ1CF8');
+  	  var fldLangVal=new Array('Nombre de Cliente de Posventa','No. de Placa','Correo electrónico','Teléfono','Modelo','Ciudad','Kilometraje Actual','Tipo de Mantenimiento','Tipo de Gasolina');
+ 		var name='';
+ 		var email='';
 
- 	  function checkMandatory3798478000000891007() {
-		for(i=0;i<mndFileds.length;i++) {
-		  var fieldObj=document.forms['WebToLeads3798478000000891007'][mndFileds[i]];
-		  if(fieldObj) {
-			if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
-			 if(fieldObj.type =='file')
-				{
-				 alert('Seleccione un archivo para cargar.');
-				 fieldObj.focus();
-				 return false;
-				}
-			alert(fldLangVal[i] +' no puede estar vacío.');
-   	   	  	  fieldObj.focus();
-   	   	  	  return false;
-			}  else if(fieldObj.nodeName=='SELECT') {
-  	   	   	 if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
-				alert(fldLangVal[i] +' no puede ser nulo.');
-				fieldObj.focus();
-				return false;
-			   }
-			} else if(fieldObj.type =='checkbox'){
- 	 	 	 if(fieldObj.checked == false){
-				alert('Please accept  '+fldLangVal[i]);
-				fieldObj.focus();
-				return false;
-			   }
-			 }
-			 try {
-			     if(fieldObj.name == 'Last Name') {
-				name = fieldObj.value;
- 	 	 	    }
-			} catch (e) {}
-		    }
-		}
-		trackVisitor();
-	}
-</script><script type='text/javascript' id='VisitorTracking'>var $zoho= $zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:'fca023d41369b102f674653bfbad40ae8773efd594d827d38972098434ea4d4f6e5f93d6453259ced09a7ab59dbcb438', values:{},ready:function(){$zoho.salesiq.floatbutton.visible('hide');}};var d=document;s=d.createElement('script');s.type='text/javascript';s.id='zsiqscript';s.defer=true;s.src='https://salesiq.zoho.com/widget';t=d.getElementsByTagName('script')[0];t.parentNode.insertBefore(s,t);function trackVisitor(){try{if($zoho){var LDTuvidObj = document.forms['WebToLeads3798478000000891007']['LDTuvid'];if(LDTuvidObj){LDTuvidObj.value = $zoho.salesiq.visitor.uniqueid();}var firstnameObj = document.forms['WebToLeads3798478000000891007']['First Name'];if(firstnameObj){name = firstnameObj.value +' '+name;}$zoho.salesiq.visitor.name(name);var emailObj = document.forms['WebToLeads3798478000000891007']['Email'];if(emailObj){email = emailObj.value;$zoho.salesiq.visitor.email(email);}}} catch(e){}}</script>
-	</form>
-</div>
+  	  function checkMandatory3798478000000978045() {
+ 		for(i=0;i<mndFileds.length;i++) {
+ 		  var fieldObj=document.forms['WebForm3798478000000978045'][mndFileds[i]];
+ 		  if(fieldObj) {
+ 			if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
+ 			 if(fieldObj.type =='file')
+ 				{
+ 				 alert('Seleccione un archivo para cargar.');
+ 				 fieldObj.focus();
+ 				 return false;
+ 				}
+ 			alert(fldLangVal[i] +' no puede estar vacío.');
+    	   	  	  fieldObj.focus();
+    	   	  	  return false;
+ 			}  else if(fieldObj.nodeName=='SELECT') {
+   	   	   	 if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
+ 				alert(fldLangVal[i] +' no puede ser nulo.');
+ 				fieldObj.focus();
+ 				return false;
+ 			   }
+ 			} else if(fieldObj.type =='checkbox'){
+  	 	 	 if(fieldObj.checked == false){
+ 				alert('Please accept  '+fldLangVal[i]);
+ 				fieldObj.focus();
+ 				return false;
+ 			   }
+ 			 }
+ 			 try {
+ 			     if(fieldObj.name == 'Last Name') {
+ 				name = fieldObj.value;
+  	 	 	    }
+ 			} catch (e) {}
+ 		    }
+ 		}
+ 	     }
+
+ </script>
+ 	</form>
+ </div>
