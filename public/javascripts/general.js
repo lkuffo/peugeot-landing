@@ -2,6 +2,7 @@ $(document).ready(function(){
   $(".pg-see-less").hide();
   $(".pg-dimmed-glass").hide();
   $(".pg-footer-links").hide();
+  $(".pg-carrusel").hide()
 
   $(".pg-see-more").click(function(){
     $(".pg-see-less").show();
@@ -14,7 +15,17 @@ $(document).ready(function(){
     $(".pg-see-more").show();
     $(".pg-dimmed-glass").hide();
     $(".pg-footer-links").hide();
+    $(".pg-carrusel").hide();
     $(this).hide()
+  })
+
+  $(".pg-show-carrusel").click(function(){
+    $(".pg-see-less").show();
+    $(".pg-dimmed-glass").show();
+    $(".pg-carrusel").show();
+    $('.slick-dots .slick-active button').click();
+    $(this).removeClass("infinite");
+    initCarrusel();
   })
 })
 
@@ -24,4 +35,21 @@ function getDeferrer(){
   var url = new URL(url_string);
   var deferrer = url.searchParams.get("from");
   $("#deferrerField").val(deferrer)
+}
+
+function initCarrusel(){
+  $('.pg-carrusel').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    adaptiveHeight: true,
+    variableWidth: true,
+    // centerMode: true,
+    // centerPadding: '60px',
+    // slidesToShow: 3
+    // autoplay: true,
+    // autoplaySpeed: 5000,
+    // fade: true,
+    // cssEase: 'linear'
+  });
 }

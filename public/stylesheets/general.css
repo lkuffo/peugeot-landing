@@ -260,3 +260,139 @@ button, .btn, .btn-2{
 .pg-footer-contact{
   font-size: 12px;
 }
+
+.pg-carrusel-text{
+  align-self: center;
+  text-align: justify;
+  font-size: 12px;
+}
+
+.pg-carrusel{
+  width: 450px;
+  left: 50%;
+  margin-left: -225px;
+  position: fixed;
+  top: 10%;
+  z-index: 3;
+}
+
+.pg-carrusel-image{
+  max-height: 450px;
+  max-width: 450px;
+}
+
+.pg-carrusel-div{
+  display: flex !important;
+  flex-direction: column;
+}
+
+.pg-carrusel-text-box{
+  padding: 16px;
+  background-color: #e6e6e6;
+  justify-content: center;
+  display: flex;
+}
+
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .pg-carrusel{
+    width: 450px;
+    left: 50%;
+    margin-left: -225px;
+    position: fixed;
+    top: 10%;
+    z-index: 3;
+  }
+
+  .pg-carrusel-image{
+    max-height: 450px;
+    max-width: 450px;
+  }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  .pg-carrusel{
+    width: 450px;
+    left: 50%;
+    margin-left: -225px;
+    position: fixed;
+    top: 10%;
+    z-index: 3;
+  }
+
+  .pg-carrusel-image{
+    max-height: 450px;
+    max-width: 450px;
+  }
+
+  .slick-arrow{
+    visibility: hidden !important;
+  }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .pg-carrusel{
+    width: 300px;
+    left: 50%;
+    margin-left: -150px;
+    position: fixed;
+    top: 10%;
+    z-index: 3;
+  }
+
+  .pg-carrusel-image{
+    max-height: 300px;
+    max-width: 300px;
+  }
+
+  .slick-arrow{
+    visibility: hidden !important;
+  }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .pg-carrusel{
+    width: 300px;
+    left: 50%;
+    margin-left: -150px;
+    position: fixed;
+    top: 10%;
+    z-index: 3;
+  }
+
+  .slick-arrow{
+    visibility: hidden !important;
+  }
+
+  .pg-carrusel-image{
+    max-height: 300px;
+    max-width: 300px;
+  }
+
+}
