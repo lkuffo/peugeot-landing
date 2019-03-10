@@ -291,6 +291,8 @@ button, .btn, .btn-2{
   background-color: #e6e6e6;
   justify-content: center;
   display: flex;
+  box-sizing: border-box;
+  width: 450px;
 }
 
 
@@ -368,6 +370,11 @@ button, .btn, .btn-2{
     visibility: hidden !important;
   }
 
+  .pg-carrusel-text-box{
+    padding: 8px;
+    width: 300px;
+  }
+
 }
 
 /*
@@ -393,6 +400,11 @@ button, .btn, .btn-2{
   .pg-carrusel-image{
     max-height: 300px;
     max-width: 300px;
+  }
+
+  .pg-carrusel-text-box{
+    padding: 8px;
+    width: 300px;
   }
 
 }

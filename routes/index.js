@@ -2,6 +2,8 @@ var express = require('express');
 var router = express.Router();
 
 /* GET home page. */
+
+// 301 DIESEL FEBRERO 2019
 router.get('/301-diesel', function(req, res, next) {
   res.render('301-diesel/301-diesel', { title: 'Express' });
 });
@@ -10,6 +12,8 @@ router.get('/301-diesel-thanks', function(req, res, next) {
   res.render('301-diesel/301-diesel-thanks', { title: 'Express' });
 });
 
+
+// EUROTRIP FEBRERO 2019
 router.get('/eurotrip', function(req, res, next) {
   res.render('eurotrip/eurotrip', { title: 'Express' });
 });
@@ -18,16 +22,26 @@ router.get('/eurotrip-thanks', function(req, res, next) {
   res.render('eurotrip/eurotrip-thanks', { title: 'Express' });
 });
 
+// EUROTRIP 301 MARZO 2019
+router.get('/eurotrip-301', function(req, res, next) {
+  res.render('301-marzo/301-marzo', { title: 'Express' });
+});
+
+router.get('/eurotrip-301-thanks', function(req, res, next) {
+  res.render('301-marzo/301-marzo-thanks', { title: 'Express' });
+});
+
+//SERVICIO POSTVENTA
 router.get('/servicios-postventa', function(req, res, next) {
   res.render('postventa/postventa', { title: 'Express' });
 });
 
-router.get('/iframe-servicios-postventa', function(req, res, next) {
-  res.render('iframe-postventa/postventa', { title: 'Express' });
-});
-
 router.get('/servicios-postventa-thanks', function(req, res, next) {
   res.render('postventa/postventa-thanks', { title: 'Express' });
+});
+
+router.get('/iframe-servicios-postventa', function(req, res, next) {
+  res.render('iframe-postventa/postventa', { title: 'Express' });
 });
 
 router.get('/iframe-servicios-postventa-thanks', function(req, res, next) {
