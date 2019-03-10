@@ -17,3 +17,11 @@ $(document).ready(function(){
     $(this).hide()
   })
 })
+
+function getDeferrer(){
+  var url_string = window.location.href;
+  console.log(url_string);
+  var url = new URL(url_string);
+  var deferrer = url.searchParams.get("from");
+  $("#deferrerField").val(deferrer)
+}
