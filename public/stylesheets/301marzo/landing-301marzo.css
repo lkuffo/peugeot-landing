@@ -77,7 +77,7 @@ input[type="submit"] {
     top: 18%;
     padding: 8px !important;
     left: 50% !important;
-    margin-left: -38%;
+    margin-left: -35.5%;
     position: absolute !important;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.1);
   }
@@ -123,7 +123,7 @@ input[type="submit"] {
     top: 18%;
     padding: 8px !important;
     left: 50% !important;
-    margin-left: -38%;
+    margin-left: -35.5%;
     position: absolute !important;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.1);
   }
@@ -264,7 +264,7 @@ input[type="submit"] {
   #crmWebToEntityForm{
     width: 35% !important;
     padding: 8px !important;
-    left: 168px !important;
+    left: 2% !important;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.1) !important;
     background-color: rgba(205, 200, 190, 0.25);
   }
