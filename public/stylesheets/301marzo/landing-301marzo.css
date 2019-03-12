@@ -20,22 +20,20 @@ input[type="submit"] {
 #crmWebToEntityForm{
   margin: 16px;
   padding: 16px;
-  background-color: rgba(19, 24, 39, 0.9);
+  background-color: rgba(205, 200, 190, 0.4);
   width: 400px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   border-radius: 4px;
   position: fixed;
-  left: 5%;
-  top: 5%;
-  top: 64px;
-  left: 64px;
+  top: 190px;
+  left: 110px;
 }
 
 .pg-landing-301-bg{
   /* width: 100%; */
   position: sticky;
-  height: 100%;
-  background-image: url("/images/eurotrip/landscape.png");
+  height: 110%;
+  background-image: url("/images/301marzo/landscape.jpg");
   background-repeat:   no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -61,7 +59,7 @@ input[type="submit"] {
 
   .pg-landing-form-input{
     height: 24px !important;
-    background-color: rgba(13, 17, 27, 0.8) !important;
+    background-color: rgba(205, 200, 190, 0.4) !important;
   }
 
   body{
@@ -73,7 +71,7 @@ input[type="submit"] {
   }
 
   #crmWebToEntityForm{
-    background-color: rgba(19, 24, 39, 0.25);
+    background-color: rgba(205, 200, 190, 0.25);
     width: 66% !important;
     top: 20%;
     left: 50% !important;
@@ -106,7 +104,7 @@ input[type="submit"] {
 
   .pg-landing-form-input{
     height: 24px !important;
-    background-color: rgba(13, 17, 27, 0.6);
+    background-color: rgba(205, 200, 190, 0.6);
   }
 
   body{
@@ -118,7 +116,7 @@ input[type="submit"] {
   }
 
   #crmWebToEntityForm{
-    background-color: rgba(19, 24, 39, 0.25);
+    background-color: rgba(205, 200, 190, 0.25);
     width: 66% !important;
     top: 20%;
     left: 50% !important;
@@ -196,8 +194,8 @@ input[type="submit"] {
 @media (min-width: 1281px) {
 
   .pg-landing-301-bg{
-    background-image: url("/images/eurotrip/landscape.png");
-    height: 100%;
+    background-image: url("/images/301marzo/landscape.jpg");
+    height: 110%;
   }
 
 }
@@ -210,12 +208,12 @@ input[type="submit"] {
 @media (min-width: 768px) and (max-width: 1024px) {
 
   .pg-landing-301-bg{
-    background-image: url("/images/eurotrip/tablet.png");
+    background-image: url("/images/301marzo/tablet.jpg");
     height: 100%;
   }
 
   #crmWebToEntityForm{
-    background-color: rgba(19, 24, 39, 0.25);
+    background-color: rgba(205, 200, 190, 0.25);
     width: 50% !important;
     top: 23% !important;
     left: 50% !important;
@@ -234,7 +232,7 @@ input[type="submit"] {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
   .pg-landing-301-bg{
-    background-image: url("/images/eurotrip/square.png");
+    background-image: url("/images/301marzo/square.jpg");
     height: 105%;
   }
 
@@ -243,7 +241,7 @@ input[type="submit"] {
     top: 2% !important;
     left: 30% !important;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.1) !important;
-    background-color: rgba(19, 24, 39, 0.25);
+    background-color: rgba(205, 200, 190, 0.25);
   }
 
 }
@@ -256,16 +254,16 @@ input[type="submit"] {
 @media (min-width: 481px) and (max-width: 767px) {
 
   .pg-landing-301-bg{
-    background-image: url("/images/eurotrip/square.png");
+    background-image: url("/images/301marzo/landscape.jpg");
     height: 110%;
   }
 
   #crmWebToEntityForm{
     width: 35% !important;
     left: 2% !important;
-    top: 2% !important;
+    top: 25% !important;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.1) !important;
-    background-color: rgba(19, 24, 39, 0.25);
+    background-color: rgba(205, 200, 190, 0.25);
   }
 
   .pg-landing-form-box-title{
@@ -275,7 +273,7 @@ input[type="submit"] {
 
   .pg-landing-form-input{
     height: 24px !important;
-    background-color: rgba(13, 17, 27, 0.8) !important;
+    background-color: rgba(205, 200, 190, 0.4) !important;
   }
 
 }
@@ -288,8 +286,8 @@ input[type="submit"] {
 @media (min-width: 320px) and (max-width: 480px) {
 
   .pg-landing-301-bg{
-    background-image: url("/images/eurotrip/responsive.png");
-    height: 115%;
+    background-image: url("/images/301marzo/responsive.jpg");
+    height: 100%;
   }
 
 }

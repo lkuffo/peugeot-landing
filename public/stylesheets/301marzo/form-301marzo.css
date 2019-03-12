@@ -10,7 +10,7 @@
   border: 0;
   font-weight: bold;
   color: #e5e8ed;
-  background-color: rgba(13, 17, 27, 0.9);
+  background-color: rgba(205, 200, 190, 0.9);
 }
 
 .form-div{
@@ -24,6 +24,7 @@
   font-size: 20px;
   font-weight: bold;
   padding-bottom: 8px;
+  color: #424242;
 }
 
 
@@ -39,7 +40,7 @@
   height: 35px;
   line-height: 35px;
   padding: 0 1.5rem;
-  color: #424242;
+  color: white;
   font-size: 15px;
   font-weight: bold;
   text-align: center;
@@ -53,7 +54,7 @@
   border-radius: 2px;
   transition: all .3s ease-out;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.225);
-  background-color: #e6e6e6;
+  background-color: #1a6e87;
 }
 
 .pg-landing-form-btn{
@@ -70,7 +71,7 @@
 
 .pg-landing-form-text-esp{
   font-size: 12px;
-  color: #f7f7f7;
+  color: #424242;
   opacity: 0.8;
 }
 
@@ -84,5 +85,5 @@
 .btn:hover {
   text-decoration: none;
   box-shadow: 0 4px 10px 0px rgba(0,0,0,0.225);
-  background-color: #f7f7f7;
+  background-color: #2795b6;
 }
