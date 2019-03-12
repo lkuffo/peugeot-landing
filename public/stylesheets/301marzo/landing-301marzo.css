@@ -24,7 +24,7 @@ input[type="submit"] {
   width: 400px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   border-radius: 4px;
-  position: fixed;
+  position: absolute;
   top: 190px;
   left: 110px;
 }
@@ -53,13 +53,14 @@ input[type="submit"] {
 @media (max-width: 720px){
 
   .pg-landing-form-box-title{
-    font-size: 16px !important;
+    font-size: 14px !important;
     font-weight: normal !important;
+    color: black !important;
   }
 
   .pg-landing-form-input{
-    height: 24px !important;
-    background-color: rgba(205, 200, 190, 0.4) !important;
+    height: 20px !important;
+    background-color: rgba(205, 200, 190, 0.6) !important;
   }
 
   body{
@@ -73,7 +74,8 @@ input[type="submit"] {
   #crmWebToEntityForm{
     background-color: rgba(205, 200, 190, 0.25);
     width: 66% !important;
-    top: 20%;
+    top: 18%;
+    padding: 8px !important;
     left: 50% !important;
     margin-left: -38%;
     position: absolute !important;
@@ -118,7 +120,8 @@ input[type="submit"] {
   #crmWebToEntityForm{
     background-color: rgba(205, 200, 190, 0.25);
     width: 66% !important;
-    top: 20%;
+    top: 18%;
+    padding: 8px !important;
     left: 50% !important;
     margin-left: -38%;
     position: absolute !important;
@@ -177,7 +180,7 @@ input[type="submit"] {
   #crmWebToEntityForm{
     width: 350px !important;
     right: 2% !important;
-    top: 2% !important;
+    top: 128px !important;
   }
 
   .pg-landing-logo{
@@ -215,7 +218,7 @@ input[type="submit"] {
   #crmWebToEntityForm{
     background-color: rgba(205, 200, 190, 0.25);
     width: 50% !important;
-    top: 23% !important;
+    top: 28% !important;
     left: 50% !important;
     margin-left: -27% !important;
     position: absolute !important;
@@ -238,7 +241,7 @@ input[type="submit"] {
 
   #crmWebToEntityForm{
     width: 35% !important;
-    top: 2% !important;
+    top: 128px !important;
     left: 30% !important;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.1) !important;
     background-color: rgba(205, 200, 190, 0.25);
@@ -260,8 +263,8 @@ input[type="submit"] {
 
   #crmWebToEntityForm{
     width: 35% !important;
-    left: 2% !important;
-    top: 25% !important;
+    padding: 8px !important;
+    left: 168px !important;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.1) !important;
     background-color: rgba(205, 200, 190, 0.25);
   }
@@ -289,5 +292,18 @@ input[type="submit"] {
     background-image: url("/images/301marzo/responsive.jpg");
     height: 100%;
   }
+
+  .#crmWebToEntityForm{
+    top: 130px !important;
+  }
+
+  .pg-landing-form-text-esp{
+    color: black !important;
+  }
+
+  .pg-landing-form-box-title{
+    color: black;
+  }
+
 
 }

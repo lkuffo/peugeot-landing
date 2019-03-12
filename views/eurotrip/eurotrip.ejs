@@ -8,6 +8,7 @@
     <meta name="description" content="Encuentra las últimas promociones y novedades acerca de vehículos Peugeot en Ecuador. Motion & Emotion. 301 Diesel | Eurotrip">
     <meta name="robots" content="index, follow">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/multiple-select/1.2.2/multiple-select.min.css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/slick-theme.css"/>
     <link rel='stylesheet' href='/stylesheets/general.css' />
     <link rel='stylesheet' href='/stylesheets/landing-eurotrip.css' />
@@ -34,25 +35,25 @@
       <div class="pg-carrusel-div">
         <img class="pg-carrusel-image" src='/images/eurotrip/carrusel/Eurotrip301.jpg'>
         <div class="pg-carrusel-text-box">
-          <span class="pg-carrusel-text"> Vive un Eurotrip en cada recorrido </span>
+          <span class="pg-carrusel-text"> Robusto y fiable, el sedán 301 goza de la destreza técnica de la marca. </span>
         </div>
       </div>
       <div class="pg-carrusel-div">
         <img class="pg-carrusel-image" src='/images/eurotrip/carrusel/Eurotrip3008.jpg'>
         <div class="pg-carrusel-text-box">
-          <span class="pg-carrusel-text"> Vive un Eurotrip en cada recorrido  </span>
+          <span class="pg-carrusel-text"> Una verdadera encarnación del automóvil moderno, seguro, tecnológico, creador de emociones y placer es el Nuevo SUV PEUGEOT 3008. Un vehículo pensado para los conductores que quieren nuevas experiencias alcanzando una interacción intuitiva y sensorial. </span>
         </div>
       </div>
       <div class="pg-carrusel-div">
         <img class="pg-carrusel-image" src='/images/eurotrip/carrusel/Eurotrip2008.jpg'>
         <div class="pg-carrusel-text-box">
-          <span class="pg-carrusel-text"> Vive un Eurotrip en cada recorrido </span>
+          <span class="pg-carrusel-text"> Como SUV compacto, el nuevo PEUGEOT 2008 presenta una propuesta bien definida. El frontal incorpora innovaciones que contribuyen a su prestancia. </span>
         </div>
       </div>
       <div class="pg-carrusel-div">
         <img class="pg-carrusel-image" src='/images/eurotrip/carrusel/Eurotrip5008.jpg'>
         <div class="pg-carrusel-text-box">
-          <span class="pg-carrusel-text"> Vive un Eurotrip en cada recorrido </span>
+          <span class="pg-carrusel-text"> Bienvenidos a la nueva dimensión del nuevo SUV PEUGEOT 5008, el que además de potente, de líneas finas, tecnológico y elegante, se ha diseñado pensando exclusivamente en amplificar tu experiencia de conducción. </span>
         </div>
       </div>
       <div class="pg-carrusel-div">
@@ -68,6 +69,16 @@
 
     <script>
       getDeferrer();
+    </script>
+
+    <script>
+      // Here the mounted function is same as $(function() {})
+      function mounted() {
+        $('.multipleselect').multipleSelect({
+          selectAll: false
+        })
+      }
+      mounted();
     </script>
 
   </body>
