@@ -56,11 +56,13 @@ input[type="submit"] {
     font-size: 14px !important;
     font-weight: normal !important;
     color: black !important;
+    padding-bottom: 0px !important;
   }
 
   .pg-landing-form-input{
     height: 20px !important;
     background-color: rgba(205, 200, 190, 0.6) !important;
+    margin-bottom: 2px;
   }
 
   body{
@@ -75,7 +77,7 @@ input[type="submit"] {
     background-color: rgba(205, 200, 190, 0.25);
     width: 66% !important;
     top: 20%;
-    padding: 8px !important;
+    padding: 4px !important;
     left: 50% !important;
     margin-left: -35.5%;
     position: absolute !important;
@@ -102,11 +104,13 @@ input[type="submit"] {
   .pg-landing-form-box-title{
     font-size: 16px !important;
     font-weight: normal !important;
+    padding-bottom: 0px !important;
   }
 
   .pg-landing-form-input{
     height: 24px !important;
     background-color: rgba(205, 200, 190, 0.6);
+    margin-bottom: 2px !important;
   }
 
   body{
@@ -272,11 +276,13 @@ input[type="submit"] {
   .pg-landing-form-box-title{
     font-size: 16px !important;
     font-weight: normal !important;
+    padding-bottom: 0px !important;
   }
 
   .pg-landing-form-input{
     height: 24px !important;
     background-color: rgba(205, 200, 190, 0.4) !important;
+    margin-bottom: 2px !important;
   }
 
 }

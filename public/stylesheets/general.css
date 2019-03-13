@@ -220,6 +220,14 @@ button, .btn, .btn-2{
     margin-left: -115px;
   }
 
+  .pg-footer-big {
+    align-self: start !important;
+  }
+
+  .pg-footer-first-box, .pg-footer-second-box{
+      flex-direction: column !important;
+  }
+
 }
 
 .pg-footer{
