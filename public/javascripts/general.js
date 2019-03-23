@@ -27,6 +27,15 @@ $(document).ready(function(){
     $(this).removeClass("infinite");
     initCarrusel();
   })
+
+  $("#pg-submit-btn").click(function(){
+    gtag('event', 'GeneracionLeadsLanding', {
+      'event_category': 'mensaje',
+      'event_action': 'enviado',
+      'event_label': 'Label',
+      'value': 'Value'
+    });
+  })
 })
 
 function getDeferrer(){
