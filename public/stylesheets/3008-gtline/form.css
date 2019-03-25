@@ -9,8 +9,14 @@
   border-radius: 2px;
   border: 0;
   font-weight: bold;
-  color: #e5e8ed;
-  background-color: rgba(13, 17, 27, 0.9);
+  color: white;
+  background-color: rgba(152, 152, 152, 0.55);
+}
+
+input::placeholder{
+  color: #e8e8e8 !important;
+  font-weight: normal !important;
+  /* font-size: 0.75em; */
 }
 
 .form-div{
@@ -24,6 +30,7 @@
   font-size: 20px;
   font-weight: bold;
   padding-bottom: 8px;
+  color: #232e39 !important;
 }
 
 
@@ -39,7 +46,7 @@
   height: 35px;
   line-height: 35px;
   padding: 0 1.5rem;
-  color: #424242;
+  color: #fff;
   font-size: 15px;
   font-weight: bold;
   text-align: center;
@@ -53,7 +60,7 @@
   border-radius: 2px;
   transition: all .3s ease-out;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.225);
-  background-color: #e6e6e6;
+  background-color: #232e39;
 }
 
 .pg-landing-form-btn{
@@ -70,7 +77,7 @@
 
 .pg-landing-form-text-esp{
   font-size: 12px;
-  color: #f7f7f7;
+  color: white;
   opacity: 0.8;
 }
 

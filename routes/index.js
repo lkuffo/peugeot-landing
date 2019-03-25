@@ -41,6 +41,15 @@ router.get('/nuevo-3008-active-thanks', function(req, res, next) {
   res.render('3008-active/thanks', { title: 'Express' });
 });
 
+// NUEVO 3008 GTLINE
+router.get('/nuevo-3008-gtline', function(req, res, next) {
+  res.render('3008-gtline/index', { title: 'Express' });
+});
+
+router.get('/nuevo-3008-gtline-thanks', function(req, res, next) {
+  res.render('3008-gtline/thanks', { title: 'Express' });
+});
+
 //SERVICIO POSTVENTA
 router.get('/servicios-postventa', function(req, res, next) {
   res.render('postventa/postventa', { title: 'Express' });

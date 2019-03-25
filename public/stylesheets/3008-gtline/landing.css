@@ -20,21 +20,20 @@ input[type="submit"] {
 #crmWebToEntityForm{
   margin: 16px;
   padding: 16px;
-  background-color: rgba(19, 24, 39, 0.9);
+  background-color: rgba(255, 255, 255, 0.15);
   width: 400px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   border-radius: 4px;
   position: absolute;
-  left: 5%;
-  top: 32px;
-  left: 64px;
+  top: 180px;
+  right: 90px;
 }
 
 .pg-landing-301-bg{
   /* width: 100%; */
   position: sticky;
   height: 100%;
-  background-image: url("/images/eurotrip/landscape.png");
+  background-image: url("/images/3008gtline/landscape.jpg");
   background-repeat:   no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -61,7 +60,7 @@ input[type="submit"] {
 
   .pg-landing-form-input{
     height: 20px !important;
-    background-color: rgba(13, 17, 27, 0.8) !important;
+    background-color: rgba(152, 152, 152, 0.55) !important;
     margin-bottom: 2px !important;
   }
 
@@ -74,12 +73,12 @@ input[type="submit"] {
   }
 
   #crmWebToEntityForm{
-    background-color: rgba(19, 24, 39, 0.25);
+    background-color: rgba(255, 255, 255, 0.05);
     width: 66% !important;
     top: 20%;
     left: 50% !important;
     padding: 4px !important;
-    margin-left: -38%;
+    margin-left: -33.5%;
     position: absolute !important;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.1);
   }
@@ -109,7 +108,7 @@ input[type="submit"] {
 
   .pg-landing-form-input{
     height: 20px !important;
-    background-color: rgba(13, 17, 27, 0.6);
+    background-color: rgba(152, 152, 152, 0.40);
     margin-bottom: 2px !important;
   }
 
@@ -122,7 +121,7 @@ input[type="submit"] {
   }
 
   #crmWebToEntityForm{
-    background-color: rgba(19, 24, 39, 0.25);
+    background-color: rgba(255, 255, 255, 0.08);
     width: 66% !important;
     top: 20%;
     left: 50% !important;
@@ -148,14 +147,14 @@ input[type="submit"] {
   margin-bottom: 8px;
   height: 22px;
   width: 100% !important;
-  border-color: rgba(13, 17, 27, 0.6) !important;
+  border-color: rgba(152, 152, 152, 0.4) !important;
 }
 
 .ms-choice{
   height: 22px !important;
   border-radius: 0px !important;
-  border-color: rgba(13, 17, 27, 0.6) !important;
-  background-color: rgba(13, 17, 27, 0.6) !important;
+  border-color: rgba(152, 152, 152, 0.4) !important;
+  background-color: rgba(152, 152, 152, 0.4) !important;
 }
 
 .ms-drop ul>li label{
@@ -164,7 +163,7 @@ input[type="submit"] {
 }
 
 .ms-drop ul{
-  background-color: rgba(13, 17, 27, 0.6) !important;
+  background-color: rgba(152, 152, 152, 0.4) !important;
 }
 
 .ms-choice>span{
@@ -182,7 +181,7 @@ input[type="submit"] {
   #crmWebToEntityForm{
     width: 40% !important;
     top: 32px;
-    left: 32px !important;
+    right: 32px !important;
     margin: 4px;
     padding: 8px;
   }
@@ -227,8 +226,8 @@ input[type="submit"] {
 @media (min-width: 1281px) {
 
   .pg-landing-301-bg{
-    background-image: url("/images/eurotrip/landscape.png");
-    height: 100%;
+    background-image: url("/images/3008gtline/landscape.jpg");
+    height: 115%;
   }
 
 }
@@ -241,12 +240,12 @@ input[type="submit"] {
 @media (min-width: 768px) and (max-width: 1024px) {
 
   .pg-landing-301-bg{
-    background-image: url("/images/eurotrip/tablet.png");
-    height: 100%;
+    background-image: url("/images/3008gtline/tablet.jpg");
+    height: 110%;
   }
 
   #crmWebToEntityForm{
-    background-color: rgba(19, 24, 39, 0.25);
+    background-color: rgba(255, 255, 255, 0.05);
     width: 50% !important;
     top: 23% !important;
     left: 50% !important;
@@ -265,16 +264,16 @@ input[type="submit"] {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
   .pg-landing-301-bg{
-    background-image: url("/images/eurotrip/square.png");
-    height: 105%;
+    background-image: url("/images/3008gtline/square.jpg");
+    height: 110%;
   }
 
   #crmWebToEntityForm{
     width: 35% !important;
-    top: 2% !important;
-    left: 30% !important;
+    top: 10% !important;
+    left: 60% !important;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.1) !important;
-    background-color: rgba(19, 24, 39, 0.25);
+    background-color: rgba(255, 255, 255, 0.05);
   }
 
 }
@@ -287,16 +286,16 @@ input[type="submit"] {
 @media (min-width: 481px) and (max-width: 767px) {
 
   .pg-landing-301-bg{
-    background-image: url("/images/eurotrip/square.png");
-    height: 110%;
+    background-image: url("/images/3008gtline/square.jpg");
+    height: 115%;
   }
 
   #crmWebToEntityForm{
     width: 35% !important;
-    left: 2% !important;
-    top: 2% !important;
+    left: 60% !important;
+    top: 18% !important;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.1) !important;
-    background-color: rgba(19, 24, 39, 0.25);
+    background-color: rgba(255, 255, 255, 0.05);
   }
 
   .pg-landing-form-box-title{
@@ -307,7 +306,7 @@ input[type="submit"] {
 
   .pg-landing-form-input{
     height: 24px !important;
-    background-color: rgba(13, 17, 27, 0.8) !important;
+    background-color: rgba(152, 152, 152, 0.5) !important;
     margin-bottom: 2px !important;
   }
 
@@ -321,8 +320,8 @@ input[type="submit"] {
 @media (min-width: 320px) and (max-width: 480px) {
 
   .pg-landing-301-bg{
-    background-image: url("/images/eurotrip/responsive.png");
-    height: 115%;
+    background-image: url("/images/3008gtline/responsive.jpg");
+    height: 110%;
   }
 
 }
