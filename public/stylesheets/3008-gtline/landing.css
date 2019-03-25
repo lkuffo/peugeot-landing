@@ -53,7 +53,7 @@ input[type="submit"] {
 @media (max-width: 720px){
 
   .pg-landing-form-box-title{
-    font-size: 16px !important;
+    font-size: 14px !important;
     font-weight: normal !important;
     padding-bottom: 0px !important;
   }
@@ -75,7 +75,7 @@ input[type="submit"] {
   #crmWebToEntityForm{
     background-color: rgba(255, 255, 255, 0.05);
     width: 66% !important;
-    top: 20%;
+    top: 15%;
     left: 50% !important;
     padding: 4px !important;
     margin-left: -33.5%;
