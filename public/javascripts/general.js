@@ -29,6 +29,7 @@ $(document).ready(function(){
   })
 
   $("#pg-submit-btn").click(function(){
+    console.log("Pushing event to gtm");
     gtag('event', 'GeneracionLeadsLanding', {
       'event_category': 'mensaje',
       'event_action': 'enviado',

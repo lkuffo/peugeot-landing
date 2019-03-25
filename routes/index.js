@@ -31,6 +31,16 @@ router.get('/eurotrip-301-thanks', function(req, res, next) {
   res.render('301-marzo/301-marzo-thanks', { title: 'Express' });
 });
 
+
+// NUEVO 3008 ACTIVE
+router.get('/nuevo-3008-active', function(req, res, next) {
+  res.render('3008-active/index', { title: 'Express' });
+});
+
+router.get('/nuevo-3008-active-thanks', function(req, res, next) {
+  res.render('3008-active/thanks', { title: 'Express' });
+});
+
 //SERVICIO POSTVENTA
 router.get('/servicios-postventa', function(req, res, next) {
   res.render('postventa/postventa', { title: 'Express' });
