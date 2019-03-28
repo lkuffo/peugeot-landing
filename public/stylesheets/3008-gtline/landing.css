@@ -25,7 +25,7 @@ input[type="submit"] {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   border-radius: 4px;
   position: absolute;
-  top: 180px;
+  top: 60px;
   right: 90px;
 }
 
@@ -75,7 +75,7 @@ input[type="submit"] {
   #crmWebToEntityForm{
     background-color: rgba(255, 255, 255, 0.05);
     width: 66% !important;
-    top: 15%;
+    top: 18%;
     left: 50% !important;
     padding: 4px !important;
     margin-left: -33.5%;
@@ -180,7 +180,7 @@ input[type="submit"] {
 
   #crmWebToEntityForm{
     width: 40% !important;
-    top: 32px;
+    top: 16px;
     right: 32px !important;
     margin: 4px;
     padding: 8px;
@@ -293,13 +293,13 @@ input[type="submit"] {
   #crmWebToEntityForm{
     width: 35% !important;
     left: 60% !important;
-    top: 18% !important;
+    top: 3% !important;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.1) !important;
     background-color: rgba(255, 255, 255, 0.05);
   }
 
   .pg-landing-form-box-title{
-    font-size: 16px !important;
+    font-size: 12px !important;
     font-weight: normal !important;
     padding-bottom: 0px !important;
   }
