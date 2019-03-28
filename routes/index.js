@@ -2,6 +2,9 @@ var express = require('express');
 var router = express.Router();
 
 /* GET home page. */
+router.get('/', function(req, res, next) {
+  res.render('3008-gtline/index', { title: 'Express' });
+});
 
 // 301 DIESEL FEBRERO 2019
 router.get('/301-diesel', function(req, res, next) {
