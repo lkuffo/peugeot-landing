@@ -15,6 +15,16 @@ router.get('/301-diesel-thanks', function(req, res, next) {
   res.render('301-diesel/301-diesel-thanks', { title: 'Express' });
 });
 
+// THE LION MOMENT
+router.get('/the-lion-moment', function(req, res, next) {
+  res.render('the-lion-moment/index', { title: 'Express' });
+});
+
+router.get('/the-lion-moment-thanks', function(req, res, next) {
+  res.render('the-lion-moment/thanks', { title: 'Express' });
+});
+
+
 
 // EUROTRIP FEBRERO 2019
 router.get('/eurotrip', function(req, res, next) {
