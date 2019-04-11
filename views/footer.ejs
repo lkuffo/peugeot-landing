@@ -77,3 +77,44 @@ var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqsc
 s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
 </script>
 <!-- END OF ZOHO SALESIQ -->
+
+<!-- TAP TAP PIXEL -->
+<script type="text/javascript">
+  (function () {
+      console.log("pixel de tap tap")
+      var eventType = 'section';
+      var incs = [{"time":5000,"name":"5s"},{"time":10000,"name":"10s"},{"time":15000,"name":"15s"},{"time":30000,"name":"30s"},{"time":60000,"name":"60s"},{"time":90000,"name":"90s"},{"time":120000,"name":"120s"}];
+      var targetUrl = 'https://ads.sonataplatform.com/pixel/attribution/5cae2852a3e9ec00383d1b76';
+      var container = document.createElement('div');
+      container.id = 'ttAttrib';
+
+      function getSection() {
+          if (document.getElementsByTagName('BODY').length > 0) {
+              return document.getElementsByTagName('BODY')[0];
+          }
+
+          return document.getElementsByTagName('HEAD')[0];
+      }
+
+      function insertPixel(event, permanenceTimeMs) {
+          var px = document.createElement('img');
+
+          px.src = targetUrl + '?type=' + event + '&permanence=' + permanenceTimeMs + '&ts=' + Date.now();
+          px.style = 'position:absolute;top:0;left:-9999px;';
+          px.width = 1;
+          px.height = 1;
+
+
+          getSection().appendChild(container);
+          document.getElementById('ttAttrib').appendChild(px);
+      }
+
+      insertPixel(eventType, 0);
+
+      incs.forEach(function(inc) {
+          window.setTimeout(insertPixel.bind(null, eventType, inc.time), inc.time);
+      });
+
+  })();
+</script>
+<!-- END TAP TAP PIXEL -->
