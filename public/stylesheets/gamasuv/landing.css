@@ -60,7 +60,7 @@ input[type="submit"] {
 
   .pg-landing-form-input{
     height: 20px !important;
-    background-color: rgba(152, 152, 152, 0.55) !important;
+    background-color: rgba(255, 255, 255, 0.55) !important;
     margin-bottom: 2px !important;
   }
 
@@ -108,7 +108,7 @@ input[type="submit"] {
 
   .pg-landing-form-input{
     height: 20px !important;
-    background-color: rgba(152, 152, 152, 0.40);
+    background-color: rgba(255, 255, 255, 0.40);
     margin-bottom: 2px !important;
   }
 
@@ -147,14 +147,14 @@ input[type="submit"] {
   margin-bottom: 8px;
   height: 22px;
   width: 100% !important;
-  border-color: rgba(152, 152, 152, 0.4) !important;
+  border-color: rgba(255, 255, 255, 0.4) !important;
 }
 
 .ms-choice{
   height: 22px !important;
   border-radius: 0px !important;
-  border-color: rgba(152, 152, 152, 0.4) !important;
-  background-color: rgba(152, 152, 152, 0.4) !important;
+  border-color: rgba(255, 255, 255, 0.4) !important;
+  background-color: rgba(255, 255, 255, 0.4) !important;
 }
 
 .ms-drop ul>li label{
@@ -163,7 +163,7 @@ input[type="submit"] {
 }
 
 .ms-drop ul{
-  background-color: rgba(152, 152, 152, 0.4) !important;
+  background-color: rgba(255, 255, 255, 0.4) !important;
 }
 
 .ms-choice>span{
@@ -306,7 +306,7 @@ input[type="submit"] {
 
   .pg-landing-form-input{
     height: 24px !important;
-    background-color: rgba(152, 152, 152, 0.5) !important;
+    background-color: rgba(255, 255, 255, 0.5) !important;
     margin-bottom: 2px !important;
   }
 
