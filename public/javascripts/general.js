@@ -36,6 +36,9 @@ $(document).ready(function(){
       'event_label': 'Label',
       'value': 'Value'
     });
+
+    gtag_report_conversion(window.location)
+
   })
 })
 

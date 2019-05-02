@@ -3,8 +3,18 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('the-lion-moment/index', { title: 'Express' });
+  res.render('gamasuv/index', { title: 'Express' });
 });
+
+// GAMA SUV
+router.get('/gama-suv-peugeot', function(req, res, next) {
+  res.render('gamasuv/index', { title: 'Express' });
+});
+
+router.get('/gama-suv-peugeot-thanks', function(req, res, next) {
+  res.render('gamasuv/thanks', { title: 'Express' });
+});
+
 
 // 301 DIESEL FEBRERO 2019
 router.get('/301-diesel', function(req, res, next) {
