@@ -75,7 +75,7 @@ input[type="submit"] {
   #crmWebToEntityForm{
     background-color: rgba(255, 255, 255, 0.15);
     width: 66% !important;
-    top: 9%;
+    top: 7%;
     left: 50% !important;
     padding: 4px !important;
     margin-left: -33.5%;
@@ -321,7 +321,7 @@ input[type="submit"] {
 
   .pg-landing-301-bg{
     background-image: url("/images/gamasuv-junio/responsive.png");
-    height: 103%;
+    height: 108%;
   }
 
 }
