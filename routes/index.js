@@ -90,4 +90,9 @@ router.get('/iframe-servicios-postventa-thanks', function(req, res, next) {
   res.render('iframe-postventa/postventa-thanks', { title: 'Express' });
 });
 
+// Thanks
+router.get('/thanks', function(req, res, next) {
+  res.render('thanks/index', { title: 'Express' });
+});
+
 module.exports = router;
